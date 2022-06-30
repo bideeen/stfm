@@ -4,23 +4,10 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 import plotly.graph_objects as go 
 import plotly.figure_factory as ff
 import plotly.express as px 
 from skimage import data
-from bokeh.io import output_notebook, show, output_file
-from bokeh.plotting import figure, ColumnDataSource, show
-from bokeh.tile_providers import get_provider, Vendors
-from bokeh.palettes import PRGn, RdYlGn
-from bokeh.transform import linear_cmap,factor_cmap
-from bokeh.layouts import row, column
-from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar, NumeralTickFormatter
-from urllib.request import urlopen
-import json
-import plotly.offline as py
-from math import log, sqrt
-from scipy.integrate import odeint
 
 
 # Interactive Heatmap with Plotly

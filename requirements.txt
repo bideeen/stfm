@@ -1,11 +1,8 @@
-bokeh==2.4.1
-json
 numpy
 pandas
 plotly
-requests 
-scikit-learn
-scipy
+matplotlib
+streamlit
 seaborn
 urllib
 skimage
