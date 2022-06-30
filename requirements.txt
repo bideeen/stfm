@@ -1,0 +1,11 @@
+bokeh==2.4.1
+json
+numpy
+pandas
+plotly
+requests 
+scikit-learn
+scipy
+seaborn
+urllib
+skimage
