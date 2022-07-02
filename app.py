@@ -173,7 +173,7 @@ def map_ployly(df):
 
 
 #Set the data source
-data_file = "data_am.xlsx"
+data_file = "data.csv"
 
 #Page configuration
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -195,7 +195,7 @@ screen = st.sidebar.selectbox("Select the visualsation",
                                'Map with Plotly','Advanced Interactive Pie Chart with Plotly'])
 
 
-df = pd.read_excel(data_file, sheet_name='Data')
+df = pd.read_csvl(data_file)
 
 if(screen == 'Interactive Heatmap with Plotly'):
     heatmap(df)
