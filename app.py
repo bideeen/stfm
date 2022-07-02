@@ -195,7 +195,7 @@ screen = st.sidebar.selectbox("Select the visualsation",
                                'Map with Plotly','Advanced Interactive Pie Chart with Plotly'])
 
 
-df = pd.read_csvl(data_file)
+df = pd.read_csv(data_file)
 
 if(screen == 'Interactive Heatmap with Plotly'):
     heatmap(df)
