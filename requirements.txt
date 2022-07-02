@@ -1,8 +1,7 @@
-numpy
-pandas
-plotly
-matplotlib
-streamlit
-seaborn
-urllib
-skimage
+numpy==1.23.0
+pandas==1.4.3
+plotly==5.9.0
+matplotlib==3.5.2
+streamlit==1.10.0
+seaborn==0.11.2
+skimage==0.0
