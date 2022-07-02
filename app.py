@@ -90,10 +90,10 @@ def scatter_psm(df):
     st.pyplot(fig)
     
 # Plotting image with Plotly
-def plot_image(df):
-    img = data.astronaut()
-    fig = px.imshow(img, binary_format="jpeg", binary_compression_level=0)
-    st.plotly_chart(fig)
+# def plot_image(df):
+#     img = data.astronaut()
+#     fig = px.imshow(img, binary_format="jpeg", binary_compression_level=0)
+#     st.plotly_chart(fig)
 
 # Hexbins plots with NumPy and Matplotlib
 def hexbins(df):
@@ -188,7 +188,7 @@ st.sidebar.subheader('Result')
 screen = st.sidebar.selectbox("Select the visualsation",
                               ['Interactive Heatmap with Plotly', 'Making Chart with Plotly and pandas',
                                'Plotting 3D graph with Plotly and Pandas','Heap map by combining Plotly, Seaborn and Matplotlib',
-                               'Scatter Plot by combining Pandas, Seaborn and Matplotlib','Plotting image with Plotly',
+                               'Scatter Plot by combining Pandas, Seaborn and Matplotlib',
                                'Line Plot with Pandas and Plotly','Multiple Bar chart with Pandas and Plotly',
                                'Box plot with Pandas and Plotly',
                                'Female genital mutilation visualization to show three different quartile computation',
@@ -208,8 +208,8 @@ elif(screen == 'Heap map by combining Plotly, Seaborn and Matplotlib'):
     heatmap_psm(df)
 elif(screen == 'Scatter Plot by combining Pandas, Seaborn and Matplotlib'):
     scatter_psm(df)
-elif(screen == 'Plotting image with Plotly'):
-    plot_image(df)
+# elif(screen == 'Plotting image with Plotly'):
+#     plot_image(df)
 elif(screen == 'Line Plot with Pandas and Plotly'):
     line_plot(df)
 elif(screen == 'Multiple Bar chart with Pandas and Plotly'):
